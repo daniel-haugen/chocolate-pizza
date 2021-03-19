@@ -44,8 +44,25 @@ nav {
 }
 
 
+h2 {
+  font-style: normal;
+  font-size: large;
 
+}
 
+h3 {
+  font-size: smaller;
+}
+
+.print {
+  background-color: lightgreen;
+  float: right;
+}
+
+.p {
+  background-color: lightseagreen;
+  text-size-adjust: inherit ;
+}
 
 
 
