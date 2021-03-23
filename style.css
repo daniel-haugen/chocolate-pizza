@@ -7,6 +7,7 @@ body {
 
 
 main {
+  margin-top: 30px;
 
 }
 
@@ -26,7 +27,7 @@ nav {
  background-color: lightgreen;
  width: 300px;
  height: 130px;
-
+ display: flex;
 }
 
 .logo>img {
@@ -34,6 +35,13 @@ nav {
 
 }
 
+.logo>div {
+  height: 100%;
+  /* width: 50%; */
+  background-color: white;
+  display: flex;
+ flex-direction:column;
+}
 .logo>h1 {
   background-color: pink;
   float: right;
@@ -47,16 +55,30 @@ nav {
 }
 
 .social {
-  width: 200px;
+  width: 300px;
   height: 200px;
   background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 
 }
 
+.social>img {
+  width: 25px;
+  height: 25px;
+}
 
 h2 {
   font-size: 55px;
   font-weight: bold;
+}
+
+h1 {
+font-size: 50px;
+font-weight:bold;
+font-family: cursive;
 }
 
 h3 {
@@ -65,25 +87,48 @@ h3 {
 
 .print {
   background-color: lightgreen;
-  float: right;
+  
   font-size:
 }
 
 .p {
   background-color: lightseagreen;
+  margin-top: 30px;
   
 }
 
 hr {
   background-color: grey;
+  margin-top: 30px;
+}
+  .title {
+    margin-bottom: 30px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+  }
+ .blocktitle {
+
+  display: flex;
+  flex-direction: column;
+ }
+
+section { 
+  margin-top: 30px;
+  background-color: violet;
+  display: flex;
 }
 
+.author {
+  display: flex;
+  flex-direction: column;
+}
 
-
-
-
-
-
+h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
 
 
 /* div container with the list background */
@@ -91,4 +136,11 @@ hr {
   background-image: url('img/list-bg.png');
   height: 300px;
   text-align: center;
+  margin-top: 30px;
+}
+ 
+button {
+  width: 150px;
+  background-color: brown;
+  color: white;
 }
